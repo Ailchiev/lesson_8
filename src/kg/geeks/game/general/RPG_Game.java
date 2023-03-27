@@ -31,7 +31,6 @@ public class RPG_Game {
             System.out.println(heroes[i]);
         }
     }
-
     private static void playRound(Boss boss, Hero[] heroes) {
         roundNumber++;
         boss.chooseDefence(heroes);

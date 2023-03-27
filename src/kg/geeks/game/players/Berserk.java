@@ -8,9 +8,8 @@ public class Berserk extends Hero {
     }
 
     public void applySuperPower(Boss boss, Hero[] heroes) {
-
+        this.setDamage(this.getDamage()+(boss.getDamage()/3));
     }
-
     public void setBlockedDamage(int blockedDamage) {
         this.blockedDamage = blockedDamage;
     }
